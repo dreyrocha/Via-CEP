@@ -1,0 +1,30 @@
+@media (max-width: 599px) {
+    .container {
+      padding-left: 40px;
+    }
+    form {
+      font-size: 20pt;
+    }
+  
+    h1 {
+      padding-left: 10px;
+      font-size: 40pt;
+    }
+    #textCEP {
+      padding: 4px;
+    }
+    #cep {
+      padding: 5px;
+    }
+    input {
+      width: 15rem;
+      height: 30px;
+      font-size: 13pt;
+    }
+    #result {
+      width: 400px;
+      height: 12rem;
+    }
+  
+  }
+  
