@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleDesq.css">
+    <link rel="stylesheet" href="styleCel.css">
+    <link rel="stylesheet" href="styleTab.css">
+</head>
+
+<body>
+    <header>
+        andrey
+    </header>
+
+
+    <div class="container">
+        <h1>localiza cep</h1>
+        <form id="cepForm">
+            <div id="textCEP">Seu cep:</div>
+                <label id="lupa"><input name="<cep>"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    type="number" id="cep" maxlength="8"
+                    placeholder="Digite seu CEP" />
+                <br>
+                <button type="submit" id="submitbtn">Buscar</button></label>
+
+        </form>
+        <div id="result">
+            <p><strong>Rua:</strong> <span id="rua"></span></p>
+            <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p><strong>Cidade:</strong> <span id="localidade"></span></p>
+            <p><strong>Estado:</strong> <span id="uf"></span></p>
+        </div>
+        <button onclick="Limpar ()" type="button" id="clearbtn">Limpar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
