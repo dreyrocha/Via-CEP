@@ -1,2 +1,2 @@
 # Via-CEP
-Localiza CEP, puxa dados da API, e o exibi na tela.
+Localiza CEP, puxa dados da API, e o exibe na tela.
