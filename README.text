@@ -1,3 +1,14 @@
+O projeto contém uma função fecth que monitora a api via cep.
+Proíbe a digitação de caractéres especiais.
+Ao ser copiado o CEP, quando colado o caractere espcial é removido.
+Possui efeitos de CSS ao passar o mouse sobre o botão.
+Limpa todos os elementos de pesquisa com o botão clearbtn.
+Possui responsividade mediaquery.
+Dispõe de duas imagens: JPEG e PNG.
+
 Integrantes 
 04135322 - Andrey Júlio da Silva Rocha
 04172577 - Gustavo Guilherme Amaral da Silva
+04162752 - Nicolas Yohan Muniz Barbosa
+04085914 - Caike Araújo Simões
+04172818 - João Paulo Gomes da Silva de Oliveira
