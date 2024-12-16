@@ -1,47 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b0c10;
+  background-color: #000000;
 }
-/* 
-header {
-    background-color
-
-    
-} */
-
 
 h1,
 #cepForm,
-#result,
-#textCEP {
+#result {
   text-transform: uppercase;
   color: white;
   font-family: "Oswald";
 }
 
-
-
 .container {
-  background-color: #1f28335e;
-  margin-top: 70px;
-  width: 100%;
-  padding: 1px;
+  background-color: #1737355e;
 }
 
-h1 {
-  margin-left: 50px;
-  width: 20rem;
+.image {
+  display: flex;
+  margin-top: 0px;
+}
+#img1 {
+  margin-top: 25px;
+  width: 90px;
+  height: 90px;
   
 }
 
 input {
   background-color: #0b0c10;
   color: white;
-
   border-radius: 20px 0px 0px 20px;
   border: none;
-  
 }
 
 #submitbtn {
@@ -49,36 +39,63 @@ input {
   border: none;
   width: 100px;
   cursor: pointer;
-}
-
-#submitbtn {
   background-color: #45a28e;
   font-family: Oswald;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
+
+
 #clearbtn {
-  background-color: red;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  color: #0b0c10;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.318);
   font-family: Oswald;
   text-transform: uppercase;
 }
 
+#img3 {
+  margin-left: 2px;
+  width: 36.4rem;
+  height: 80px;
+  margin-top: 0;
+  opacity: 0.3;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+
 #lupa {
-    display: flex;
+  display: flex;
 }
 
 #result {
-    background-color: #0b0c10;
-    height: 10rem;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-top: 10px;
-    margin-top: 20px;
+  background-color: #0b0c10;
+  border-radius: 50px 50px 0px 0px;
+  text-transform: initial;
+  color: #c5c6c758;
+  font-size: 15pt;
 }
 
-#rua, #bairro, #localidade, #uf  {
-    /* background-color: #1f2833; */
-    border-style: solid;
+#rua,
+#bairro,
+#localidade,
+#uf {
+  /* background-color: #1f2833; */
+  margin-left: 50px;
+  font-size: 16pt;
+  text-transform: initial;
+  color: #c5c6c7;
 }
 
-
+p {
+  padding-left: 10px;
+  border-bottom: solid;
+  border-color: rgba(52, 44, 44, 0.101);
+}

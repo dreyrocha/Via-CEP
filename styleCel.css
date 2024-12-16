@@ -1,30 +1,42 @@
-@media (max-width: 599px) {
-    .container {
-      padding-left: 40px;
-    }
-    form {
-      font-size: 20pt;
-    }
-  
-    h1 {
-      padding-left: 10px;
-      font-size: 40pt;
-    }
-    #textCEP {
-      padding: 4px;
-    }
-    #cep {
-      padding: 5px;
-    }
-    input {
-      width: 15rem;
-      height: 30px;
-      font-size: 13pt;
-    }
-    #result {
-      width: 400px;
-      height: 12rem;
-    }
-  
+@media (max-width: 500px) {
+  .container {
+    margin-top: 30px;
+    padding-left: 20px;
+    height: 41rem;
   }
-  
+
+  form {
+    font-size: 20pt;
+  }
+  #img3 {
+   display: none;
+  }
+  #img1 {
+    margin-top: 10px
+  }
+  h1{
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: 40pt;
+  }
+  #cepT {
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+
+  input {
+    width: 21rem;
+    height: 50px;
+    font-size: 15pt;
+  }
+  #result {
+    border-radius: 
+    50px 0px;
+    width: 27rem;
+    height: 17rem;
+  }
+
+  #clearbtn {
+    margin-left: 7rem;
+  }
+}

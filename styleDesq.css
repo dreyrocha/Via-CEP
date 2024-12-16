@@ -1,35 +1,48 @@
-@media (min-width: 1220px) {
-    .container {
-      padding-left: 33rem;
-    }
+@media (min-width: 1000px) {
+  .container {
+    margin-top: 10px;
+    padding: 30px;
+    padding-top: 0px;
+    width: 37rem;
+    height: 42rem;
+    margin-left: 30rem;
+  }
+
+  #img3 {
+    height: 70px;
+  }
+  h1 {
+    margin-left: 120px;
+    font-size: 35pt;
+  }
+  form {
+    font-size: 30pt;
+  }
+
+  #cepT {
+    font-size: 20pt;
+    margin-left: 18px;
+    margin-bottom: 6px;
+
+  }
+}
+input {
+  width: 28rem;
+  height: 30px;
+  margin-left: 10px;
+  padding: 15px;
+  color: white;
+  font-size: 18pt;
+}
+
+#result {
+  width: 34rem;
+  height: 16rem;
+  margin-top: 20px;
+  padding: 20px;
   
-    h1 {
-      font-size: 40pt;
-    }
-    form {
-      font-size: 30pt;
-    }
-  
-    #textCEP {
-        margin-left: 14px;
-    }
-    }
-    input {
-      
-      width: 26rem;
-      height: 30px;
-      margin-left: 10px;
-      padding: 15px;    
-      color: white;
-      font-size: 18pt;
-    }
-  
-    #result {
-      width: 34rem;
-      height: 13rem;
-    }
-    
-    #clearbtn {
-      margin-left: 80px;
-    }
-  
+}
+
+#clearbtn {
+  margin-left: 11rem;
+}
